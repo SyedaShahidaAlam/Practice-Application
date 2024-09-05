@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Practice Application</string>
+    <string name="textview_name">Juha</string>
+    <string name="loginbutton_name">Login</string>
+    <string name="logoutbutton_name">Logout</string>
+    <string name="edittext_1">Enter Number 1</string>
+    <string name="edittext_2">Enter Number 2</string>
+    <string name="textview1">Whats product you want?</string>
+    <string name="set_title">Exit</string>
+    <string name="set_message">Are you want to exit?</string>
+
+    <string name="bng_btn">Bangladesh</string>
+    <string name="ind_btn">India</string>
+    <string name="pak_btn">Pakistan</string>
+
+    <string name="info_bd">Summer (Grishmo): Typically from March to June, this season brings intense heat, especially in the northern plains and central India. In southern India, the temperatures are somewhat milder but still warm.\n\nMonsoon (Barsha): Beginning in June and lasting until September, the monsoon season is characterized by heavy rainfall. The southwest monsoon, which arrives first in Kerala, then progresses across the country, significantly impacts agriculture and water resources.\n\nAutumn (Sarat): Following the monsoon, October and November bring a transition to cooler temperatures and clearer skies. This period is marked by a respite from the intense heat\n\n
+    </string>
+    <string name="info_ind">
+        Summer (Grishmo): Typically from March to June, this season brings intense heat, especially in the northern plains and central India. In southern India, the temperatures are somewhat milder but still warm.\n\nMonsoon (Barsha): Beginning in June and lasting until September, the monsoon season is characterized by heavy rainfall. The southwest monsoon, which arrives first in Kerala, then progresses across the country, significantly impacts agriculture and water resources.\n\nAutumn (Sarat): Following the monsoon, October and November bring a transition to cooler temperatures and clearer skies. This period is marked by a respite from the intense heat and rains.\n\nLate Autumn (Hemanta): From late November to December, this season is cooler and marks the onset of winter in northern and central India, with pleasant temperatures and reduced humidity.\n\nWinter (Sheet): From December to February, northern and central India experience cold temperatures, with some regions seeing frost and even snow in the higher altitudes. Southern India remains relatively mild during this time.\n
+    </string>
+    <string name="info_pak">
+Summer: Typically from April to June, Pakistan experiences intense heat, especially in the plains and southern regions. In the northern areas, particularly the high-altitude regions, temperatures are milder. Cities like Karachi see high humidity during this period.\n\nMonsoon: The monsoon season usually starts in July and lasts until September. The southwest monsoon brings rainfall, primarily affecting the eastern parts of the country and the northern areas. The rainfall is crucial for agriculture, especially in the Punjab and Sindh regions.\n\nAutumn: From October to November, the weather becomes more temperate and pleasant. The humidity drops, and the temperatures moderate, making it a favorable time for outdoor activities and travel.\n\nWinter: December through February marks the winter season, with cooler temperatures across the country. In the northern areas, particularly in places like Gilgit-Baltistan, snowfall and sub-zero temperatures are common. In the southern regions, winter is milder and more comfortable.\n\nSpring: March and early April bring spring to Pakistan, characterized by warming temperatures and blooming flowers. This season is known for its pleasant weather and is a popular time for outdoor activities and festivals.\n\n
+    </string>
+
+
+    <string-array name="country_names">
+
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>Bhutan</item>
+        <item>Iran</item>
+        <item>Pakistan</item>
+        <item>Canada</item>
+        <item>Palestine</item>
+
+
+    </string-array>
+
+    <string-array name="population">
+
+        <item>20 million</item>
+        <item>14 million</item>
+
+        <item>25 million</item>
+        <item>18 million</item>
+
+        <item>21 million</item>
+        <item>16 million</item>
+
+        <item>10 million</item>
+
+        <item>8 million</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+

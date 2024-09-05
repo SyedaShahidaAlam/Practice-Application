@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity21">
+
+    <Button
+        android:id="@+id/bngbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bng_btn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/bangladesh"
+        />
+
+    <Button
+        android:id="@+id/indbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ind_btn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/india"
+        />
+
+    <Button
+        android:id="@+id/pakbtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pak_btn"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/pakistan"
+        />
+
+</LinearLayout>
+
+

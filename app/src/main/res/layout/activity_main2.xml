@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:id="@+id/edittext_1ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/edittext_1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:cursorVisible="true"
+            android:backgroundTint="#E91E63"
+            />
+
+        <EditText
+            android:id="@+id/edittext_2ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/edittext_2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:cursorVisible="true"
+            android:backgroundTint="#E91E63"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="16dp"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnaddID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Add"
+            android:backgroundTint="#FF5722"
+            android:layout_marginTop="16dp"
+            />
+
+        <Button
+            android:id="@+id/btnsubID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sub"
+            android:backgroundTint="#FF5722"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ETtextviewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>
